@@ -16,6 +16,7 @@ export interface CharacterProps {
 const onClickHandler = (callback: () => void): React.MouseEventHandler => () => {
   selectCharacterSound.play();
   callback();
+  //
 };
 
 const onMouseEnter = (callback: () => void): React.MouseEventHandler => () => {
@@ -27,7 +28,7 @@ const onMouseLeave = (callback: () => void): React.MouseEventHandler => evt => {
   evt.persist();
   const isLeavingSiblingGroup = evt.currentTarget.parentNode === evt.relatedTarget;
   if (isLeavingSiblingGroup) {
-    cursorSound.play();
+    // cursorSound.play();
     callback();
   }
 };
