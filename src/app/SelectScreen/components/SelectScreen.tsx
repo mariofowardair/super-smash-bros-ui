@@ -22,7 +22,7 @@ export const SelectScreen: React.FC = () => {
   return (
     <div className={styles.screenContainer}>
       <div className={styles.screenContainerInner}>
-        <Title title="Training" />
+        <Title title="Frame Data" />
         <div className={styles.container}>
           <CharacterGrid
             characters={collection}

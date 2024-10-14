@@ -51,7 +51,11 @@ export const CharacterCard: React.FC<CharacterProps> = ({ character, onHightligh
     >
       <Picture
         alt={`${charName} half portrait`}
-        className={cx({ [styles.cardPortrait]: !isRandom, [styles.cardPortraitRandom]: isRandom })}
+        className={cx({ 
+          [styles.cardPortrait]: !isRandom, 
+          [styles.cardPortraitRandom]: isRandom,
+          [styles.shiftUp]: charName === 'Byleth'
+        })}
         src={character.getImage(CharacterImage.HALF, 0)}
         height="100%"
         width="auto"

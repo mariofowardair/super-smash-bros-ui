@@ -143,6 +143,26 @@
     {
       "id": "persona",
       "name": "Persona"
+    },
+    {
+      "id": "arms",
+      "name": "Arms"
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft"
+    },
+    {
+      "id": "tekken",
+      "name": "Tekken"
+    },
+    {
+      "id": "kingdom-hearst",
+      "name": "Kingdom Hearts"
+    },
+    {
+      "id": "mii",
+      "name": "Mii"
     }
   ]
 }

@@ -400,6 +400,51 @@
       "series": "fire-emblem"
     },
     {
+      "id": "min-min",
+      "name": "Min Min",
+      "series": "arms"
+    },
+    {
+      "id": "steve",
+      "name": "Steve",
+      "series": "minecraft"
+    },
+    {
+      "id": "sephiroth",
+      "name": "Sephiroth",
+      "series": "final-fantasy-vii"
+    },
+    {
+      "id": "pyra-mythra",
+      "name": "Pyra/Mythra",
+      "series": "xenoblade-chronicles"
+    },
+    {
+      "id": "kazuya",
+      "name": "Kazuya",
+      "series": "tekken"
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "series": "kingdom-hearts"
+    },
+    {
+      "id": "mii-brawler",
+      "name": "Mii Brawler",
+      "series": "mii"
+    },
+    {
+      "id": "mii-swordfighter",
+      "name": "Mii Swordfighter",
+      "series": "mii"
+    },
+    {
+      "id": "mii-gunner",
+      "name": "Mii Gunner",
+      "series": "mii"
+    },
+    {
       "id": "random",
       "name": "Random"
     }
