@@ -406,7 +406,7 @@
     },
     {
       "id": "steve",
-      "name": "Steve",
+      "name": ["Steve", "Alex", "Steve", "Alex", "Steve", "Alex", "Zombie", "Enderman"],
       "series": "minecraft"
     },
     {

@@ -78,12 +78,79 @@
   width: auto;
 }
 
-
+//byleth
 .shiftUp {
   //transform: translateX(-10px);
-  margin-top: -5px;
+  margin-top: -3px;
+  margin-left: 5px;
   //transform: scale(1.1);
-  width: 110%;
-  height: 110%;
+  width: 160%;
+  height: 160%;
+  object-fit: cover;
+}
+
+.hero {
+  margin-top: 5px;
+  //transform: scale(1.1);
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+}
+
+.joker {
+  margin-top: 5px;
+  width: 130%;
+  height: 130%;
+  object-fit: cover;
+}
+
+.minmin {
+  margin-top: -12px;
+  width: 180%;
+  height: 180%;
+  object-fit: cover;
+}
+
+.steve {
+  //margin-top: -12px;
+  width: 145%;
+  height: 145%;
+  object-fit: cover;
+}
+
+.seph {
+  //margin-top: -12px;
+  width: 160%;
+  height: 160%;
+  object-fit: cover;
+}
+
+.aegis {
+  //margin-top: -12px;
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+}
+
+.kazuya {
+  margin-top: -8px;
+  width: 140%;
+  height: 140%;
+  object-fit: cover;
+}
+
+.sora {
+  margin-top: -5px;
+  margin-left: -10px;
+  width: 130%;
+  height: 130%;
+  object-fit: cover;
+}
+
+.mii {
+  margin-top: -5px;
+  //margin-left: -10px;
+  width: 120%;
+  height: 120%;
   object-fit: cover;
 }

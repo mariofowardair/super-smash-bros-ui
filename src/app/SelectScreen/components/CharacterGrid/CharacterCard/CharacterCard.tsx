@@ -54,7 +54,18 @@ export const CharacterCard: React.FC<CharacterProps> = ({ character, onHightligh
         className={cx({ 
           [styles.cardPortrait]: !isRandom, 
           [styles.cardPortraitRandom]: isRandom,
-          [styles.shiftUp]: charName === 'Byleth'
+          [styles.shiftUp]: charName === 'Byleth',
+          [styles.hero]: charName === 'Hero',
+          [styles.joker]: charName === 'Joker',
+          [styles.minmin]: charName === 'Min Min',
+          [styles.steve]: charName === 'Steve',
+          [styles.seph]: charName === 'Sephiroth',
+          [styles.aegis]: charName === 'Pyra/Mythra',
+          [styles.kazuya]: charName === 'Kazuya',
+          [styles.sora]: charName === 'Sora',
+          [styles.mii]: charName === 'Mii Brawler',
+          [styles.mii]: charName === 'Mii Swordfighter',
+          [styles.mii]: charName === 'Mii Gunner',
         })}
         src={character.getImage(CharacterImage.HALF, 0)}
         height="100%"
